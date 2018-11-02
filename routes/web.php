@@ -16,5 +16,5 @@ Route::get('student/{student_no}', function ($student_no) {
 });
 
 Route::get('student/{student_no}/score/{subject?}',function($student_no,$subject) {
-    return "學號:".$student_no."的所有成績";
+    return "學號:".$student_no."的".$subject."成績";
 });
