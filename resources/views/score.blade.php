@@ -1,10 +1,14 @@
+
 @extends('layout.master')
 
 <div class="container">
+
     <div class="page-header">
         <h1>詳細資料</h1>
     </div>
+
     <div class="row">
+
         <p>
             學號：{{ Sstudent_no }}
         </p>
@@ -29,6 +33,9 @@
                 數學：60
             </p>
         @endif
+
     </div>
+
 </div>
+
 @stop
