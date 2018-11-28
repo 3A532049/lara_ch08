@@ -8,7 +8,6 @@ use \App\User as UserEloquent;
 
 use \App\Score as ScoreEloquent;
 
-use DB;
 
 class Student extends Model
 {
